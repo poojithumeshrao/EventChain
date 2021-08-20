@@ -42,6 +42,9 @@ if [ "$CC_SRC_PATH" = "NA" ]; then
   if [ "$CC_NAME" = "basic" ]; then
     println $'\e[0;32m'asset-transfer-basic$'\e[0m' chaincode
     CC_SRC_PATH="../asset-transfer-basic"
+  elif [ "$CC_NAME" = "cashcard" ]; then
+    println $'\e[0;32m'EventChain $'\e[0m' chaincode
+    CC_SRC_PATH="../cashcard"
   elif [ "$CC_NAME" = "events" ]; then
     println $'\e[0;32m'asset-transfer-events$'\e[0m' chaincode
     CC_SRC_PATH="../asset-transfer-events"
