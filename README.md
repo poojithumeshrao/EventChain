@@ -1,6 +1,6 @@
 # EventChain
 
-
+For Description of the project please read the EventChain.pdf file
 # Prerequisites needed for running Hyperledger Fabric
 
 Please follow the instructions in
